@@ -130,12 +130,16 @@ body {
     margin: 10px 0px;
     font-size: 18px;
 }
-.lyrics {
+.lyrics-details {
     margin: 50px 0px;
     font-size: 15px;
     color: gray;
     text-align: center;
 }
+.hide-lyrics {
+    margin: 20px;
+}
+
 
  
 
