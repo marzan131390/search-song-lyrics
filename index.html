@@ -9,7 +9,39 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    
+    <nav class="container"> 
+        <div id="navbar"> 
+            <a href="#"><img src="images/logo.png" alt=""> </a>
+            <a href="#" id="toggle-icon" title="Click Here To Open Menu Bar"><img src="images/toggler-icon.svg" alt=""></a>
+        </div>
+        <div id="nav-link"> 
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Link</a></li>
+                <li id="dropdown"><a href="#">Dropdown Menu >></a> 
+                        <ul class="sub-menu"> 
+                            <li><a href="#">Action 1</a></li>
+                            <li><a href="#">Action 2</a></li>
+                        </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="content" class="container"> 
+        <div id="search-content"> 
+            <h1>Hard Rock Lyric Search</h1>
+            <div class="positon"> 
+                <input type="text" name="" id="lyric-input" placeholder="Type the song you want to lyrics">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+        <div class="warning"> 
+            <p>Something went Wrong! Please Try Again!!</p>
+        </div>
+        <div id="all-song-list"> 
+
+        </div>
+    </section>
     <script src="script/script.js"></script>
 </body>
 </html>
