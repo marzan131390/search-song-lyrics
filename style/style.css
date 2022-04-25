@@ -87,17 +87,23 @@ body {
     outline: none ;
     border: 2px solid rgb(67, 67, 203);
 }
-#search-btn {
+.custom-btn {
     font-size: 21px;
     border: none;
     border-radius: 25px;
     color: #fff;
     padding: 11px 15px;
     background-color: #28A745;
+    cursor: pointer;
+}
+.custom-btn:hover {
+    background-color: #218838;
+   
+}
+#search-btn {
     position: relative;
     left: -103px;
     top: 2px;
-    cursor: pointer;
 }
 .position {
     position: absolute;
@@ -108,9 +114,27 @@ body {
     color: rgb(201, 27, 27);
     display: none;
 }
-#search-btn:hover {
-    background-color: #218838;
-   
+.all-song-details {
+    margin: 40px 10%;
+    color: #fff;
+    background-color: rgba(128, 128, 128, .3);
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.all-song-details button {
+    margin-top: 30px;
+}
+.all-song-details p {
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.lyrics {
+    margin: 50px 0px;
+    font-size: 15px;
+    color: gray;
+    text-align: center;
 }
 
  
